@@ -14,6 +14,8 @@ Require Import fintype tuple bigop path.
 
 From mathcomp Require Import order.
 
+Declare Scope abstract_set_scope.
+
 Set Implicit Arguments.
 Unset Strict Implicit.
 Unset Printing Implicit Defensive.
@@ -392,7 +394,7 @@ Proof. by rewrite (negPf (set1_neq0 _)). Qed.
 
 Lemma set11 x : x \in ([set x] : set X).
 Proof. by rewrite -sub1set. Qed.
-Hint Resolve set11.
+Hint Resolve set11 : core.
 
 Lemma set1_inj : injective (@set1 _ _ _ set X).
 Proof.
