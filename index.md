@@ -8,6 +8,8 @@ header-includes:
     <style type="text/css"> h2 {margin-left: 0em; padding: 0px; color: #580909} </style>
     <style type="text/css"> h3 {margin-left: 1em; padding: 0px; color: #C05001;} </style>
     <style type="text/css"> body { width: 1100px; margin-left: 30px; }</style>
+[comment]: <> (This file was generated from `meta.yml`, please do not edit manually.)
+[comment]: <> (Follow the instructions on https://github.com/coq-community/templates to regenerate.)
 ---
 
 <div style="text-align:left"><img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" height="25" style="border:0px">
